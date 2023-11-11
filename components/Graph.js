@@ -101,6 +101,7 @@ function Graph({graph}) {
                                 let nodeData = node.data();
                                 if (typeof nodeData.id === 'string') {
                                     const path = '/note/' + node.data().id
+                                    console.log("push104", encodeURI(path), decodeURI(path))
                                     router.push(encodeURI(path), as=decodeURI(path))
                                 }
                             });
