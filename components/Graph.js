@@ -101,7 +101,7 @@ function Graph({graph}) {
                                 let nodeData = node.data();
                                 if (typeof nodeData.id === 'string') {
                                     const path = '/note/' + node.data().id
-                                    router.push(path)
+                                    router.push(encodeURI(path))
                                 }
                             });
                         }}
