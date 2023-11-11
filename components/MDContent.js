@@ -42,9 +42,9 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
 
         <div className="markdown-rendered">
             <Alert severity="info">
-                <AlertTitle>Want to know more?</AlertTitle>
-                🌱 <strong>Follow</strong> or <strong>DM</strong> me on Twitter at <span><a
-                href="https://twitter.com/tuancm">@tuancm</a></span>
+                <AlertTitle>Хотите быть в курсе последних обновлений системы?</AlertTitle>
+                🌱 <strong>Подпишитесь</strong> на канал Elan в Telegram: <span><a
+                href="https://t.me/difhel_b">@difhel_b</a></span>
             </Alert>
             <div dangerouslySetInnerHTML={{__html: content}}/>
             {/*<button onClick={handleInternalLinkClick}>Click me</button>*/}
@@ -54,7 +54,7 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
             </div>
             <hr/>
             <footer>
-                <p>Powered by  <a href="https://github.com/TuanManhCao/digital-garden">Mind Stone</a>, © 2022</p>
+                <p>Тестирующая система Elan, © 2023</p>
             </footer>
         </div>
     );
