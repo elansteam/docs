@@ -44,7 +44,7 @@ export default function FolderTree(props) {
                 // console.log(currentNode)
                 if (currentNode != null && currentNode.routePath != null) {
                     console.log("push46", encodeURI(currentNode.routePath), decodeURI(currentNode.routePath))
-                    router.push(encodeURI(currentNode.routePath), as=decodeURI(currentNode.routePath))
+                    router.push(encodeURI(currentNode.routePath))
                     // router.reload()
                 }
             }}
